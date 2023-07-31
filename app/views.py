@@ -23,3 +23,7 @@ def if_elif(request):
 def nested_if(request):
     d={'a':10,'b':15,'c':20}
     return render(request,'nested_if.html',context=d)
+
+def looping(request):
+    d={'hobies':['carf','art'],'name':'bristi'}
+    return render(request,'looping.html',context=d)

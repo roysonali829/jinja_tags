@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>for loop statements </h1>
+        {% for h in hobies %}
+            <h1>{{h}}</h1>
+        {% endfor %}
+
+        {% for i in name %}
+            <h1>{{i}}</h1>
+        {% endfor %}
+
+
+        <h1>url navigation</h1>
+        <h1><a href="{% url 'nested_if' %}"> click here to go nested_if page</a></h1>
+    </center>
+</body>
+</html>
